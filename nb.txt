@@ -18,3 +18,27 @@ Source: Conversation with Bing, 13/10/2023
 (2) How to exit git log or git diff - Stack Overflow. https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff.
 (3) Unresponsive git status, diff, add (hanging) - Stack Overflow. https://stackoverflow.com/questions/43319180/unresponsive-git-status-diff-add-hanging.
 (4) Can quit git diff after the first page #3828 - GitHub. https://github.com/microsoft/terminal/issues/3828.
+
+---------------------------------------------------------------------------------------------------------
+
+Après avoir exécuté `git merge`, Git ouvre un éditeur de texte pour que vous puissiez saisir un message de commit pour le merge. Comment quitter cet éditeur dépend de l'éditeur que vous utilisez. Voici comment faire pour certains éditeurs courants :
+
+- **Vim** : Appuyez sur la touche `Esc` pour passer en mode commande, puis tapez `:wq` et appuyez sur `Entrée`¹.
+- **Nano** : Appuyez sur `Ctrl + X`¹.
+
+Si vous voulez quitter sans enregistrer le message de commit (ce qui annulera le merge), vous pouvez utiliser `:q!` dans Vim ou `Ctrl + X` puis `N` dans Nano¹.
+
+Si vous ne savez pas quel éditeur vous utilisez, essayez les deux méthodes ci-dessus. Si aucune d'elles ne fonctionne, consultez la documentation de Git ou de votre éditeur de texte pour savoir comment quitter l'éditeur.
+
+Source: Conversation with Bing, 13/10/2023
+(1) How to exit a git merge asking for commit message?. https://unix.stackexchange.com/questions/181280/how-to-exit-a-git-merge-asking-for-commit-message.
+(2) merge - How do I remove git's MERGE_MSG? - Stack Overflow. https://stackoverflow.com/questions/13571849/how-do-i-remove-gits-merge-msg.
+(3) github - How to unmerge a Git merge? - Stack Overflow. https://stackoverflow.com/questions/28932515/how-to-unmerge-a-git-merge.
+
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+
