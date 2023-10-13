@@ -5,7 +5,9 @@ h1{
     font-size: large;
 }
 
-/* ONE FEATURE == ONE BRANCH */
+/*! ONE FEATURE == ONE BRANCH */
+
+/** git merg gree-background ajoute ds master tout ce qui ne se trouve pas dans master  */
 body {
     background: #0ab861;
     color: white;
