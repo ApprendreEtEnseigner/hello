@@ -1,0 +1,20 @@
+dans git, apres la commande git diff, il se plante avec deux point en derniere ligne. comment faire ?
+
+
+Si vous êtes coincé dans le mode `git diff` et que vous voyez deux points à la fin de la ligne, cela signifie que vous êtes dans un pager comme `less` ou `more`, qui est utilisé pour afficher le contenu page par page.
+
+Pour quitter ce mode, vous pouvez généralement appuyer sur la touche `q` de votre clavier⁴. Cela devrait vous ramener à l'invite de commande.
+
+Si cela ne fonctionne pas, il se peut que vous rencontriez un bug ou un problème spécifique à votre système. Dans ce cas, vous pouvez essayer les solutions suivantes :
+
+1. Appuyez sur `:qa` puis sur Entrée².
+2. Si vous êtes sur Windows, essayez d'appuyer sur `q` puis sur Entrée².
+3. Essayez d'appuyer plusieurs fois sur `q` puis sur Entrée².
+
+Si aucune de ces solutions ne fonctionne, il se peut que vous ayez un problème plus profond avec votre installation de Git ou votre terminal. Dans ce cas, je vous recommande de chercher de l'aide sur un forum dédié à Git ou à votre système d'exploitation.
+
+Source: Conversation with Bing, 13/10/2023
+(1) Stuck at git(diff) - Git - Codecademy Forums. https://discuss.codecademy.com/t/stuck-at-git-diff/6853.
+(2) How to exit git log or git diff - Stack Overflow. https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff.
+(3) Unresponsive git status, diff, add (hanging) - Stack Overflow. https://stackoverflow.com/questions/43319180/unresponsive-git-status-diff-add-hanging.
+(4) Can quit git diff after the first page #3828 - GitHub. https://github.com/microsoft/terminal/issues/3828.
