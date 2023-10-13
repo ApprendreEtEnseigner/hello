@@ -2,4 +2,11 @@ h1{
     padding-top: 50px;
     width: 200px;
     text-align: center;
+    font-size: large;
+}
+
+/* ONE FEATURE == ONE BRANCH */
+body {
+    background: #0ab861;
+    color: white;
 }
